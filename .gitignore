@@ -1,3 +1,4 @@
 artifacts/
 .deps/
 **/.DS_Store
+**/.idea/

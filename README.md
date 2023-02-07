@@ -1,5 +1,5 @@
 # SimpleToken
-Implementation of a smart contract on the Ethereum Goerli test network. 
+Implementation of smart contracts on the Ethereum Goerli test network. 
 ## Description 
 This is a simple voting project using ERC20 tokens and a governor, and the code can be cloned into the Remix IDE to reproduce.
 
@@ -16,8 +16,16 @@ In an ERC20Votes system, each token holder would have a proportional number of v
 [Voting dashboard on Tally](https://www.tally.xyz/gov/v)
 
 ![Screenshot of the dashboard ](images/tally.png?raw=true)
-## GitHub
-https://github.com/Miao-99/SimpleToken
+## Contracts Source Code
+- [This Project](https://github.com/Miao-99/SimpleToken)
+- [ERC20.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol)
+- [ERC20Permit.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Permit.sol)
+- [ERC20Votes.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol)
+- [Governor.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/Governor.sol)
+- [GovernorSettings.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorSettings.sol)
+- [GovernorCountingSimple.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorCountingSimple.sol)
+- [GovernorVotes.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotes.sol)
+- [GovernorVotesQuorumFraction.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotesQuorumFraction.sol)
 ## Reference
 - [OpenZeppelin-How to set up on-chain governance](https://docs.openzeppelin.com/contracts/4.x/governance)
 - [OpenZeppelin Contracts Wizard](https://docs.openzeppelin.com/contracts/4.x/wizard)
